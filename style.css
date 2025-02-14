@@ -1,0 +1,343 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  margin: 1rem;
+  font-family: poppins;
+  padding: 3rem;
+  border: 1px solid black;
+}
+
+.demo {
+  height: 0.4rem;
+}
+
+.line {
+  width: 100%;
+  height: 0.03rem;
+  background-color: black;
+  margin: 1rem 0;
+}
+
+.nav p {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  padding-bottom: 2rem;
+}
+
+.first p {
+  padding-bottom: 1rem;
+}
+.first h1 {
+  line-height: 1;
+  font-weight: 400;
+  color: rgb(23, 23, 23);
+  font-size: 5.8rem;
+  padding-bottom: 3rem;
+}
+.first img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.second .top p {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+.second .top h1 {
+  font-size: 2.4rem;
+  font-weight: 450;
+  line-height: 1;
+  width: 80%;
+}
+.second .top button {
+  margin-top: 2rem;
+  background-color: black;
+  color: white;
+  border-radius: 1rem;
+  padding: 0.7rem 2rem;
+}
+.second .bottom .one img {
+  width: 18%;
+  padding: 1rem 0;
+}
+.second .bottom .one h2 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+.second .bottom .one p {
+  opacity: 0.8;
+}
+
+.third {
+  display: flex;
+}
+.third .line {
+  width: 0.03rem;
+  height: 100vh;
+  margin: 0 2rem;
+}
+.third .right {
+  width: 65%;
+  display: grid;
+  padding-left: 3rem;
+  place-items: center;
+  grid-template-areas: "a b" "c d";
+}
+.third .right .one video {
+  width: 90%;
+  border-radius: 1rem;
+}
+.third .right .one h2 {
+  padding-left: 0.5rem;
+  font-size: 1.7rem;
+  font-weight: 450;
+  padding-top: 1rem;
+}
+.third .right .one p {
+  padding-left: 0.5rem;
+}
+.third .right .grid-a {
+  grid-area: a;
+}
+.third .right .grid-b {
+  grid-area: b;
+}
+.third .right .grid-c {
+  grid-area: c;
+}
+.third .right .grid-d {
+  grid-area: d;
+}
+.third .left {
+  width: 35%;
+  position: relative;
+}
+.third .left .sticky {
+  position: sticky;
+  top: 0;
+}
+.third .left h1 {
+  font-size: 3.3rem;
+  font-weight: 400;
+  line-height: 1;
+  opacity: 50;
+}
+.third .left p {
+  font-size: 1.3rem;
+  width: 90%;
+  padding-top: 1rem;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+.four {
+  display: flex;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+.four .line {
+  width: 0.03rem;
+  height: 100vh;
+  margin: 0 4rem;
+}
+.four .left {
+  width: 65%;
+  position: relative;
+}
+.four .left p {
+  font-size: 1.1rem;
+  padding-bottom: 1rem;
+}
+.four .left h2 {
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 1;
+}
+.four .left img {
+  position: absolute;
+  bottom: 0;
+}
+.four .right {
+  width: 35%;
+  position: relative;
+}
+.four .right p {
+  font-size: 1.4rem;
+  font-weight: 300;
+  padding-top: 0.5rem;
+}
+.four .right button {
+  position: absolute;
+  bottom: 0;
+  height: 2.5rem;
+  width: 9rem;
+  border-radius: 0.5rem;
+  word-spacing: 0.4rem;
+  color: white;
+  background-color: black;
+}
+
+.last {
+  padding-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.last .footer p {
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .four {
+    position: relative;
+    display: flex;
+    padding-top: 0;
+    flex-direction: column;
+  }
+  .four .left {
+    width: 100%;
+  }
+  .four .left p {
+    padding-top: 6rem;
+  }
+  .four .left h2 {
+    font-size: 3.3rem;
+    width: 100%;
+  }
+  .four .left img {
+    top: 0;
+    width: 17%;
+  }
+  .four .line {
+    display: none;
+  }
+  .four .right {
+    width: 100%;
+  }
+  .four .right p {
+    font-size: 1.1rem;
+  }
+  .four .right button {
+    position: initial;
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 600px) {
+  .third {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .third .right {
+    width: 100%;
+    display: flex;
+    padding-left: 0;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .third .right .one {
+    width: 100%;
+  }
+  .third .right .one video {
+    width: 100%;
+  }
+  .third .line {
+    width: 100%;
+    height: 0.04rem;
+    margin: 2rem 0;
+  }
+  .third .left {
+    width: 100%;
+  }
+  .third .left .sticky {
+    width: 100%;
+  }
+  .third .left .sticky h1 {
+    font-size: 2.5rem;
+  }
+  .third .left .sticky p {
+    width: 90%;
+    font-size: 1.1rem;
+  }
+}
+@media (min-width: 1020px) {
+  .second {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+  }
+  .second .top {
+    height: 100%;
+    width: 70%;
+  }
+  .second .top h1 {
+    font-size: 5rem;
+    width: 100%;
+    font-weight: 300;
+  }
+  .second .top button {
+    position: absolute;
+    bottom: 0;
+  }
+  .second .bottom {
+    width: 30%;
+  }
+  .second .bottom .line {
+    width: 100%;
+    height: 0.03rem;
+    background-color: black;
+    margin: 1rem 0;
+  }
+  .second .bottom .one p {
+    width: 90%;
+    padding-bottom: 1rem;
+  }
+  .second .bottom .one h2 {
+    font-size: 2.2rem;
+    font-weight: 400;
+  }
+  .second .bottom .one img {
+    margin-top: 1rem;
+    width: 12%;
+    padding: 0;
+  }
+  .second .bottom .one .line {
+    display: none;
+  }
+  .second .line {
+    height: 100vh;
+    width: 0.1rem;
+  }
+}
+@media (max-width: 600px) {
+  main {
+    padding: 1rem;
+    background-color: rgb(250, 247, 243);
+  }
+  .first h1 {
+    font-size: 4rem;
+    line-height: 1;
+    letter-spacing: 1.2;
+    width: 50%;
+    padding-bottom: 2rem;
+  }
+  .first img {
+    width: 100%;
+    aspect-ratio: 16/9;
+  }
+}/*# sourceMappingURL=style.css.map */
