@@ -327,7 +327,7 @@ main {
 @media (max-width: 700px) {
   main {
     padding: 1rem;
-    background-color: rgb(250, 247, 243);
+    background-color: rgb(244, 249, 250);
   }
   .first h1 {
     font-size: 4rem;
