@@ -202,24 +202,24 @@ main {
   text-align: center;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .four {
     position: relative;
     display: flex;
     padding-top: 0;
     flex-direction: column;
   }
-  .four .left {
+  .four .left{
     width: 100%;
   }
-  .four .left p {
+  .four .left p{
     padding-top: 6rem;
   }
-  .four .left h2 {
+  .four .left h2{
     font-size: 3.3rem;
     width: 100%;
   }
-  .four .left img {
+  .four .left img{
     top: 0;
     width: 17%;
   }
@@ -237,7 +237,7 @@ main {
     margin-top: 2rem;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .third {
     width: 100%;
     display: flex;
@@ -324,7 +324,7 @@ main {
     width: 0.1rem;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   main {
     padding: 1rem;
     background-color: rgb(250, 247, 243);
@@ -336,7 +336,7 @@ main {
     width: 50%;
     padding-bottom: 2rem;
   }
-  .first img {
+  .first img{
     width: 100%;
     aspect-ratio: 16/9;
   }
