@@ -2,6 +2,7 @@
 
 roject Title: Responsive and Clean Design Website
 
+
 This website project is designed to provide an optimal user experience across all devices, ensuring responsiveness and a seamless design. The layout adapts smoothly to various screen sizes, from desktop monitors to mobile phones, offering an intuitive and engaging browsing experience. The design emphasizes simplicity and elegance, with a clean and modern aesthetic that enhances usability.
 
 Key Features: <br>
